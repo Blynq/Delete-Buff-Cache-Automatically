@@ -20,3 +20,45 @@ sudo apt update
 sudo apt install nano
 ```
 
+## **Step 3 – (Optional) Install Nano in one line**
+```bash
+sudo apt update && sudo apt install nano -y
+```
+
+## **Step 4 – Create the cache clearing script**
+```bash
+sudo nano /usr/local/bin/clear_cache.sh
+```
+
+## **Step 5 – Add the script code**
+**Paste this into the file:**
+```bash
+#!/bin/bash
+sync
+echo 3 > /proc/sys/vm/drop_caches
+```
+- sync → writes pending data to disk
+- echo 3 → clears page cache, dentries, and inodes
+**Save and exit:**
+- CTRL+O → Enter → CTRL+X
+
+## **Step 5 – Add the script code**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
