@@ -73,6 +73,8 @@ paste at last
 ```bash
 0 * * * * /usr/local/bin/clear_cache.sh
 ```
+- CTRL+O → Enter → CTRL+X
+
 ---
 
 ## **✅ Done! Your system will now automatically free RAM on schedule.**
