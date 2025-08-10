@@ -8,3 +8,7 @@ This guide sets up an **automated Linux cache cleaning system** so your server s
 Run this to clear the page cache:
 ```bash
 sudo sync; echo 1 | sudo tee /proc/sys/vm/drop_caches
+
+---
+
+## ** 💡 Run free -h before and after to see memory changes.**
