@@ -69,11 +69,12 @@ sudo crontab -e
 ```bash
 0 * * * * /usr/local/bin/clear_cache.sh
 ```
+---
 
 ## **✅ Done! Your system will now automatically free RAM on schedule.**
 ## **📌 Tip: Avoid setting too short an interval — frequent clearing can hurt performance.**
 
 
-
+---
 ## **🙏 Thank you for using this project!**
 This GitHub repo is proudly built and maintained by Blynq. Your support and contributions mean a lot!
