@@ -9,8 +9,17 @@ Run this to clear the page cache:
 ```bash
 sudo sync; echo 1 | sudo tee /proc/sys/vm/drop_caches
 ```
-**💡 Run before and after to see memory changes.**
+**💡 Run this and see memory changes or not.**
 ```bash
 free -h
 ```
 
+---
+
+## **Step 2 – Update packages & install Nano editor**
+```bash
+sudo apt update
+sudo apt install nano
+```
+
+---
