@@ -76,5 +76,7 @@ sudo crontab -e
 
 
 ---
-## **🙏 Thank you for using this project!**
+
+
+### **🙏 Thank you for using this project!**
 This GitHub repo is proudly built and maintained by Blynq. Your support and contributions mean a lot!
