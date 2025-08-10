@@ -9,5 +9,8 @@ Run this to clear the page cache:
 ```bash
 sudo sync; echo 1 | sudo tee /proc/sys/vm/drop_caches
 ```
+**💡 Run before and after to see memory changes.**
+```bash
+free -h
+```
 
-## ** 💡 Run free -h before and after to see memory changes.**
