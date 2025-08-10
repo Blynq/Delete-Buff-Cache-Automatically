@@ -39,7 +39,7 @@ echo 3 > /proc/sys/vm/drop_caches
 ```
 - sync → writes pending data to disk
 - echo 3 → clears page cache, dentries, and inodes
-**Save and exit:**
+  **Save and exit:**
 - CTRL+O → Enter → CTRL+X
 
 ## **Step 5 – Add the script code**
