@@ -2,7 +2,7 @@
 
 This guide sets up an **automated Linux cache cleaning system** so your server stays fresh, light, and speedy — without manual intervention for all kinds of node.
 #### **(read for) gensyn only:** others ignore it
-it barely works if you have only 16GB of RAM, so for better perforamce choose more than 16GB RAM 20GB is enough for Gensyn only
+it barely works if you have only 16GB of RAM, so for better perforamce choose more than 16GB RAM, (20GB is enough)
 
 ---
 
