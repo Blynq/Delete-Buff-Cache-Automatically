@@ -1,6 +1,8 @@
 # **🧹 Delete Buff/Cache Automatically – Step-by-Step Guide**
 
-This guide sets up an **automated Linux cache cleaning system** so your server stays fresh, light, and speedy — without manual intervention.
+This guide sets up an **automated Linux cache cleaning system** so your server stays fresh, light, and speedy — without manual intervention for all kinds of node.
+#### **for gensyn only:**
+it only works if you have more than 16GB of RAM for Gensyn only
 
 ---
 
