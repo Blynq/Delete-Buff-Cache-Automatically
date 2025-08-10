@@ -64,9 +64,11 @@ sudo crontab -e
 
 
 ## **Step 9 – Schedule automatic cache clearing (Most Important)**
+paste at last 
 ```bash
-*/2 * * * * /usr/local/bin/clear_cache.sh
+*/3 * * * * /usr/local/bin/clear_cache.sh
 ```
+** this is for clear every 3 minutes**
 **💡 For hourly:**
 ```bash
 0 * * * * /usr/local/bin/clear_cache.sh
