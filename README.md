@@ -63,7 +63,7 @@ sudo crontab -e
 **Select 1 for Nano when prompted.**
 
 
-## **Step 9 – Schedule automatic cache clearing**
+## **Step 9 – Schedule automatic cache clearing (Most Important)**
 ```bash
 */2 * * * * /usr/local/bin/clear_cache.sh
 ```
