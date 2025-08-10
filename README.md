@@ -14,12 +14,9 @@ sudo sync; echo 1 | sudo tee /proc/sys/vm/drop_caches
 free -h
 ```
 
----
-
 ## **Step 2 – Update packages & install Nano editor**
 ```bash
 sudo apt update
 sudo apt install nano
 ```
 
----
